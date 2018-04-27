@@ -4,7 +4,7 @@ doks:
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: SCAP Security Guide Documentation 
+            text: Compliance as Code Documentation
             image:
         nav:
             - item_name: Item 1
@@ -16,7 +16,7 @@ doks:
     footer:
         content:
             logo:
-                text: SCAP Security Guide Documentation
+                text: Compliance as Code Documentation
                 image:
             copyright:  No copyright
         social_list:
