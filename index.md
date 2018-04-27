@@ -4,15 +4,15 @@ layout: homepage
 keywords:
 
 # Hero section
-title: SCAP Security Guide Documentation
-description: https://github.com/openscap/scap-security-guide
+title: ComplianceAsCode Documentation
+description: https://github.com/ComplianceAsCode/docs
 buttons:
     - content: Home Page
-      url: 'https://open-scap.org'
+      url: 'https://complianceascode.io'
       external_url: true
     - icon: github
       content: GitHub
-      url: 'https://github.com/openscap/scap-security-guide'
+      url: 'https://github.com/ComplianceAsCode/docs'
       external_url: true
 
 # Author box
@@ -33,9 +33,4 @@ grid_navigation:
       excerpt: Download and begin using SSG content.
       cta: Read more
       url: 'installation/index.html'
-#
-#   - title: SSG Workshop
-#     excerpt: Exercises to get you started.
-#     cta: Read more
-#     url: '#'
 ---
