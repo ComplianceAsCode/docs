@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl:
+    baseurl: https://complianceascode.github.io/docs/
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
