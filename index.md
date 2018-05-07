@@ -8,7 +8,7 @@ title: ComplianceAsCode Documentation
 description: https://github.com/ComplianceAsCode/docs
 buttons:
     - content: Home Page
-      url: 'https://complianceascode.io'
+      url: 'https://complianceascode.github.io/docs/'
       external_url: true
     - icon: github
       content: GitHub
