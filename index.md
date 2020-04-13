@@ -8,8 +8,8 @@ title: ComplianceAsCode Documentation
 description: https://github.com/ComplianceAsCode/docs
 buttons:
     - content: Home Page
-      url: 'https://complianceascode.github.io/docs/'
-      external_url: true
+      url: 'https://docs.complianceascode.io'
+      external_url: false
     - icon: github
       content: GitHub
       url: 'https://github.com/ComplianceAsCode/docs'
@@ -27,10 +27,10 @@ grid_navigation:
     - title: Contributor HOWTO
       excerpt: HOWTO on your first pull request.
       cta: Read more
-      url: 'contributor/index.html'
+      url: '/contributor/index.html'
 
     - title: Installation & Usage
       excerpt: Download and begin using ComplianceAsCode content.
       cta: Read more
-      url: 'installation/index.html'
+      url: '/installation/index.html'
 ---
