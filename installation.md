@@ -27,15 +27,42 @@ micro_nav: true
 #        content: Next page
 #        url: '#'
 ---
-In progress!
 
-## Upstream
+# Upstream Releases
 
-### GitHub Releases
-Coming Soon.
+## GitHub Releases
+Download pre-built releases, including associated release source code, via the GitHub Releases. Upstream releases are performed approximately every three months.
+
+[https://github.com/ComplianceAsCode/content/releases](https://github.com/ComplianceAsCode/content/releases)
 
 
-### COPR
-Copr is a Fedora project to help make building and managing package repositories easy. The project's COPR repository provides unofficial builds of the latest tools and content. The packages are suitable for use on RHEL, CentOS, and Scientific Linux.
+## COPR
+Copr is a Fedora project to help make building and managing package repositories easy. ComplianceAsCode's COPR repository provides unofficial builds of the latest tools and content, including those from the broader open source SCAP ecosystem, such as ``openscap``, ``scap-workbench``, and ``openscap-daemon``. The packages are suitable for use on RHEL, CentOS, and Scientific Linux.
 
-The COPR repository is located at [https://tbd.com](https://tbd.com)
+The COPR repository is located at [https://copr.fedorainfracloud.org/coprs/openscapmaint/openscap-latest/](https://copr.fedorainfracloud.org/coprs/openscapmaint/openscap-latest/)
+
+# Downstream Packages
+Multiple Linux distributions package ComplianceAsCode content natively. These packages generally provide the most stable experience, and are often supported by your Linux vendor.
+
+Some distributions still package ComplianceAsCode by its previous name, *SCAP Security Guide*. As a result packages are often named ``scap-security-guide``.
+
+## Fedora, Red Hat Enterprise Linux, and CentOS
+
+``
+$ sudo yum install scap-security-guide
+``
+
+## Debian and Ubuntu
+For Debian guides:
+
+``$ sudo apt install ssg-debian``
+
+For Debian-based Distributions, such as Ubuntu:
+
+``$ sudo apt install ssg-debderived``
+
+Non-Debian operating system content, eg to evaluate a RHEL container on a Debian host:
+``$ sudo install ssg-nondebian``
+
+Non-Debian application content, such as FireFox and JBoss:
+``$ sudo install ssg-application``
