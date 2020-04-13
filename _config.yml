@@ -1,6 +1,6 @@
 # Theme settings
 doks:
-    baseurl: https://complianceascode.github.io/docs/
+    baseurl: https://docs.complianceascode.io
     color_theme: # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
@@ -20,13 +20,7 @@ doks:
                 image:
             copyright:  No copyright
         social_list:
-            - network_name: facebook
-              profile_url: '#'
             - network_name: twitter
-              profile_url: '#'
-            - network_name: instagram
-              profile_url: '#'
-            - network_name: youtube
               profile_url: '#'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics

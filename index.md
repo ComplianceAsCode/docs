@@ -29,8 +29,8 @@ grid_navigation:
       cta: Read more
       url: 'contributor/index.html'
 
-    - title: Installation Guide
-      excerpt: Download and begin using SSG content.
+    - title: Installation & Usage
+      excerpt: Download and begin using ComplianceAsCode content.
       cta: Read more
       url: 'installation/index.html'
 ---
