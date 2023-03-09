@@ -1,4 +1,2 @@
 # docs
-Work in progress!
-
-In the mean time, check out [https://complianceascode.github.io/docs/](https://complianceascode.github.io/docs/).
+Please see [https://complianceascode.readthedocs.io/en/latest/](https://complianceascode.readthedocs.io/en/latest/) for our latest docs.
